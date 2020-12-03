@@ -33,13 +33,15 @@
 		<div id="pref-title">
 			<p>My preferences:</p>
 		</div>
-		<form id="testForm">
+		<form id="testForm" action="insert.php" method="post">
 
 	
 	
 		<dt>Major</dt>
 		<div>
-			<select name="Major">
+			<!-- <select name="Major"> -->
+			<select name="first_name">
+				
 				<optgroup label="Arts and Humanities">
 					<option value="Art and Art History">Art and Art History</option>
 					<option value="Film and New Media">Film and New Media</option>
@@ -88,12 +90,14 @@
 
 		<dt>Year</dt>
 		<div>
-			<select name="year">
-					<option value="First-year">Freshmen</option>
-					<option value="Second-year">Sophomore</option>
-					<option value="Third-year">Junior</option>
-					<option value="Forth-year">Senior</option>
-					<option value="no-pref">No preference</option>
+			<!-- <select name="year"> -->
+			<select name="last_name">
+				<!-- <input type="text" name="last_name" id="lastName"> -->
+					<option value="Freshmen">Freshmen</option>
+					<option value="Sophomore">Sophomore</option>
+					<option value="Junior">Junior</option>
+					<option value="Senior">Senior</option>
+					<option value="No-pref">No preference</option>
 				
 			</select>
 		 </div>
@@ -102,17 +106,19 @@
 
 		<dt>Gender</dt>
 		<div>
-			<select name="gender">
-					<option value="fem">Female</option>
-					<option value="male">Male</option>
-					<option value="other">Other</option>
-					<option value="no-pref">No preference</option>
+			<!-- <select name="gender"> -->
+			<select name="email">
+			
+					<option value="Female">Female</option>
+					<option value="Male">Male</option>
+					<option value="Other">Other</option>
+					<option value="No-pref">No preference</option>
 					
 				
 			</select>
 		</div> 
 
-		
+		<input type="submit" value="Submit">
 		</form>
 
 		<div class="status">
