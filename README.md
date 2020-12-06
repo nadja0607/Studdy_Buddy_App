@@ -1,1 +1,1 @@
-# Study_Buddy_App
+# Study_Buddy_Website
