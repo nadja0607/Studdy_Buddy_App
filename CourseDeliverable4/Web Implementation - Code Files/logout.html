@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="sbStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div id="main">
+        <div class="maincontainer">
+
+            <div class="title">
+
+                
+                <span class="letters"
+                    style="opacity: 1; font-size:30px; transition: transform 1s ease 0s, opacity 0.5s ease 0.5s; transform: translateX(0em);">Confirm Log Out</span>
+                <span class="line line2"
+                    style="opacity: 0.6; transition: transform 2s ease 0s, opacity 1s ease 0.5s; transform: translateY(0.7em);"></span>
+
+
+
+            </div>
+            <div class="titlecontainer">
+                <p id="moto"><i>we will miss you!</i></p>
+                <div class="buttoncontainer">
+                <form action="logout.php" method="post" name="logout">
+                    <label for="formNetID" style="color:white; font-size: 20px;">your NetID: &nbsp;&nbsp; </label>
+                    <input type="text" id="formNetID" name="logoutNetID"><br><br>
+                
+                    <button class="btn" id="loginBtn" type="submit"
+                        onclick="window.location.href='StudyBuddy.html' ">Log out <i
+                            class="fa fa-sign-in" aria-hidden="true"></i></button>
+                  </form>  
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

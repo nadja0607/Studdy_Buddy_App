@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="main-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- setting up the header box and text -->
+
+        <div class="logo">
+            <a href="index.html"></a><img src=nyuad-logo.png width="170px" height="50px"
+                style="margin-left:83%; margin-top:10px;"> </a>
+        </div>
+
+        <p id="Title">Study Buddy</p>
+        <button class="btn" id="loginBtn" onclick="window.location.href='logout.html'"
+            style="margin-right: 20px; margin-left:80%;">Logout <i class="fa fa-sign-out"
+                aria-hidden="true"></i></button>
+
+    </header>
+    <div class="mymain">
+        <div class="side1">
+
+            <div class="preferences">
+
+                <form id="testForm" action="insert.php" method="post"
+                    style="font-family: 'Gochi Hand', cursive; margin-left:8%; color:#3f0169">
+
+                    <label for="formNetID">my NetID</label>
+                    <input type="text" id="formNetID" name="formNetID"><br><br>
+
+                    <div id="pref-title">
+                        <p>My preferences:</p>
+                    </div>
+
+                    <dt>Preferred Major</dt>
+                    <div>
+                        <!-- <select name="Major"> -->
+                        <select name="mypref_major">
+
+                            <optgroup label="Arts and Humanities">
+                                <option value="Art and Art History">Art and Art History</option>
+                                <option value="Film and New Media">Film and New Media</option>
+                                <option value="History">History</option>
+                                <option value="Interactive Media">Interactive Media</option>
+                                <option value="Literature and Creative Writing	">Literature and Creative Writing
+                                </option>
+                                <option value="Music">Music </option>
+                                <option value="Philosophy">Philosophy</option>
+                                <option value="Theater">Theater </option>
+                            </optgroup>
+
+                            <optgroup label="Engineering">
+                                <option value="Bioengineering	">Bioengineering </option>
+                                <option value="Civil Engineering	">Civil Engineering </option>
+                                <option value="Computer Engineering	">Computer Engineering </option>
+                                <option value="Electrical Engineering	">Electrical Engineering </option>
+                                <option value="General Engineering	">General Engineering </option>
+                                <option value="Mechanical Engineering	">Mechanical Engineering </option>
+                            </optgroup>
+
+                            <optgroup label="Science">
+                                <option value="Biology		">Biology </option>
+                                <option value="Chemistry		">Chemistry </option>
+                                <option value="Computer Science	">Computer Science</option>
+                                <option value="Mathematics		">Mathematics </option>
+                                <option value="Physics">Physics</option>
+                                <option value="Psychology	">Psychology</option>
+                            </optgroup>
+
+                            <optgroup label="Social Science">
+                                <option value="Arab Crossroads Studies			">Arab Crossroads Studies </option>
+                                <option value="Economics			">Economics </option>
+                                <option value="Legal Studies	">Legal Studies </option>
+                                <option value="Political Science			">Political Science </option>
+                                <option value="Social Research and Public Policy	">SRPP</option>
+
+                            </optgroup>
+                            <optgroup label="No Preference">
+                                <option value="No Preference">No Preference </option>
+                            </optgroup>
+
+                        </select>
+                    </div>
+
+                    <dt>Preferred Year</dt>
+                    <div>
+                        <!-- <select name="year"> -->
+                        <select name="mypref_level">
+                            <!-- <input type="text" name="last_name" id="lastName"> -->
+                            <option value="Freshmen">Freshman</option>
+                            <option value="Sophomore">Sophomore</option>
+                            <option value="Junior">Junior</option>
+                            <option value="Senior">Senior</option>
+                            <option value="No-pref">No preference</option>
+
+                        </select>
+                    </div>
+
+                    <dt>Preferred Gender</dt>
+                    <div>
+                        <!-- <select name="gender"> -->
+                        <select name="mypref_gender">
+
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="Other">Other</option>
+                            <option value="No-pref">No preference</option>
+
+
+                        </select>
+                    </div>
+
+                    <div class="status">
+                        <input type="submit" value="Search" class="btn" id="activeBtn">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="side2">
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+
+                <div class="mySlides fade"
+                    style="background-color: #56068c8e; height:45%; font-family: 'Inknut Antiqua', serif;">
+                    <p id="pref-title" style="color:white; font-size:30px; ">Welcome Falcon!</p>
+                    <p id="pref-title" style="color:white; font-size: 20px; margin-left:6%; margin-right:6%; ">
+                        It's time
+                        to stop
+                        procrastinating, boost
+                        up
+                        your grades and
+                        meet new people. Enter the preferences for your study buddy on the right. You can always change
+                        them.</p>
+                    <p id="pref-title" style="color:white;">Check out our favorite study locations on slides!</p>
+                    <br></br>
+
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="campus6.jpg" style="width:100%;">
+
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="campus1.jpg" style="width:100%;">
+
+                </div>
+                <div class="mySlides fade">
+                    <img src="campus5.jpg" style="width:100%;">
+
+                </div>
+                <div class="mySlides fade">
+                    <img src="campus4.jpg" style="width:100%;">
+
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <img id="falcon" src="falcon.png">
+    </div>
+    </div>
+    <script src="main-script.js" type="text/javascript"></script>
+</body>
+
+</html>
