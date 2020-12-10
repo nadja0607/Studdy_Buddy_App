@@ -1,4 +1,4 @@
-# <div align="center"> Study_Buddy_Website </div>
+# <div align="center"> Study_Buddy </div>
 Study Buddy is a website developed for use by the student body of a particular educational institution. The system pairs up a student with another student based on their studying preferences for the purpose of studying together. This system aims to fosters a greater sense of connection between students, inspired especially by the isolating time of the COVID-19 pandemic. The system also aims to boost productivity levels of the student body through collaborative work.    
 
 **Major functionalities our system provides:**   
