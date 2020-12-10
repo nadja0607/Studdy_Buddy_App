@@ -6,7 +6,7 @@ Study Buddy is a **website** developed for use by the student body of a particul
 2. Students can **enter their preferences for a study partner**: academic year, major, and gender. All these include a no preference option. 
 3. Students can prompt system to **find a suitable study buddy** for them according to their pre-set studying preferences. The system will return five suitable matches at a time.
 
-Tools Used:
+**Tools Used:**
 - Sublime Text Editor
 - Cross-platform web server Xampp
 - PhpMyAdmin software tool for handling MySQL databases    
