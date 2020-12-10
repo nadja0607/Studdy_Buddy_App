@@ -8,4 +8,4 @@ Major functionalities our system provides for students:
 
 See Study Buddy in action!   
 
-[![Watch the video](https://github.com/nadja0607/Study_Buddy_App/blob/main/CourseDeliverable5/cover.png = 250x600](https://youtu.be/tTNgXS0dCgE)
+[![Watch the video](https://github.com/nadja0607/Study_Buddy_App/blob/main/CourseDeliverable5/cover.png](https://youtu.be/tTNgXS0dCgE)
