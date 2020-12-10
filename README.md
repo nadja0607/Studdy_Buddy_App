@@ -7,4 +7,4 @@ Major functionalities our system provides for students:
 3. Students can prompt system to find a suitable study buddy for them according to their pre-set studying preferences. The system will return five suitable matches at a time.   
 
 See Study Buddy in action!   
-[![Watch the video](https://github.com/nadja0607/Study_Buddy_App/blob/main/CourseDeliverable5/cover.png)](https://youtu.be/tTNgXS0dCgE)
+[![Watch the video](<img src="https://github.com/nadja0607/Study_Buddy_App/blob/main/CourseDeliverable5/cover.png" width="48">)](https://youtu.be/tTNgXS0dCgE)
