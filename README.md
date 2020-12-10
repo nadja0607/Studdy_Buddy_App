@@ -6,5 +6,6 @@ Major functionalities our system provides for students:
 2. Students can enter their preferences for a study partner: academic year, major, and gender. All these include a no preference option. 
 3. Students can prompt system to find a suitable study buddy for them according to their pre-set studying preferences. The system will return five suitable matches at a time.   
 
-See Study Buddy in action!   
+See Study Buddy in action!    
+
 [![Watch the video](https://github.com/nadja0607/Study_Buddy_App/blob/main/CourseDeliverable5/cover.png)](https://youtu.be/tTNgXS0dCgE)
